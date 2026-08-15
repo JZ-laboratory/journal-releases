@@ -1,0 +1,9 @@
+[
+  {
+    "id": "2026-08-15-v193",
+    "title": "Trading Diary 1.9.3 je venku / 1.9.3 is out",
+    "body": "Vydali jsme verzi 1.9.3. Od verze 1.9.1 se aplikace aktualizuje sama — nabídku aktualizace najdete v levém menu, instalace proběhne na pár kliknutí. Novinky série 1.9.x: automatické aktualizace, spolehlivější ukončování aplikace na pozadí a angličtina jako výchozí jazyk pro nové instalace. — 1.9.3 is out. Since 1.9.1 the app updates itself (update banner in the sidebar). The 1.9.x series adds auto-updates, more reliable background shutdown and English as the default language for fresh installs.",
+    "date": "2026-08-15",
+    "level": "info"
+  }
+]
