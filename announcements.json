@@ -1,9 +1,17 @@
 [
   {
     "id": "2026-08-15-v193",
-    "title": "Trading Diary 1.9.3 je venku / 1.9.3 is out",
-    "body": "Vydali jsme verzi 1.9.3. Od verze 1.9.1 se aplikace aktualizuje sama — nabídku aktualizace najdete v levém menu, instalace proběhne na pár kliknutí. Novinky série 1.9.x: automatické aktualizace, spolehlivější ukončování aplikace na pozadí a angličtina jako výchozí jazyk pro nové instalace. — 1.9.3 is out. Since 1.9.1 the app updates itself (update banner in the sidebar). The 1.9.x series adds auto-updates, more reliable background shutdown and English as the default language for fresh installs.",
+    "title": "Trading Diary 1.9.3",
+    "body": "Since 1.9.1 the app updates itself — look for the update banner in the sidebar, installing takes a couple of clicks. The 1.9.x series added auto-updates, more reliable background shutdown, and English as the default language for fresh installs.",
     "date": "2026-08-15",
     "level": "info"
+  },
+  {
+    "id": "2026-08-16-v194",
+    "title": "Trading Diary 1.9.4 — please reinstall manually",
+    "body": "1.9.4 is out, but auto-update can't deliver it to your install: the signing key had to be replaced after the original password was permanently lost, and every copy up to 1.9.3 only trusts the old key. This is a one-time thing — download and run the 1.9.4 installer from the releases page (github.com/JZ-laboratory/journal-releases/releases), your trades and journal are untouched by the reinstall. After that, auto-update works normally again with the new key. 1.9.4 also adds a Cloud Sync section in Settings if you want to link an account at trading-diary.co, and wider Dashboard layouts on large monitors.",
+    "date": "2026-08-16",
+    "level": "warning",
+    "max_version": "1.9.3"
   }
 ]
