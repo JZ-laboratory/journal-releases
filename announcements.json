@@ -13,5 +13,12 @@
     "date": "2026-08-16",
     "level": "warning",
     "max_version": "1.9.3"
+  },
+  {
+    "id": "2026-08-17-v195",
+    "title": "Trading Diary 1.9.5",
+    "body": "1.9.5 brings two-way cloud sync: trades, accounts, models, journal entries, Notebook notes and reflections now sync automatically between the desktop app and your linked account at trading-diary.co, in both directions — link your account once in Settings → Cloud Sync and it runs on its own from then on (a \"Sync now\" button is there too if you want it instant). Your look and feel — accent color, background animation, language — follows you between devices too. Anything that can't sync safely, like two conflicting edits, shows up as a clear entry in the Cloud Sync panel instead of silently picking a winner.",
+    "date": "2026-08-17",
+    "level": "info"
   }
 ]
