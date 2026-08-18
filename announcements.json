@@ -27,5 +27,12 @@
     "body": "1.9.6 makes the sync rules clearer and safer. Your cloud account is now the reference copy: when you're online, the desktop app catches up to it automatically, and the only thing that ever holds a record back is an edit you made here that hasn't reached the cloud yet — a genuine conflict (the same record changed in two places) still always shows up for you to resolve, never silently overwritten either way. Also fixed: deleting something for good now waits until that deletion has actually reached the cloud first, so an old cloud copy can never quietly bring it back.",
     "date": "2026-08-17",
     "level": "info"
+  },
+  {
+    "id": "2026-08-18-v197",
+    "title": "Trading Diary 1.9.7",
+    "body": "1.9.7 makes sync feel instant. When the app pulls in something new from the cloud — a trade someone added elsewhere, a setting you changed on another device — it quietly refreshes itself in the background. No more reloading to see it show up. Appearance sync now also covers font, blur, transparency and light/dark theme, on top of accent color, background and language from 1.9.5.",
+    "date": "2026-08-18",
+    "level": "info"
   }
 ]
