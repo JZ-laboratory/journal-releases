@@ -34,5 +34,12 @@
     "body": "1.9.7 makes sync feel instant. When the app pulls in something new from the cloud — a trade someone added elsewhere, a setting you changed on another device — it quietly refreshes itself in the background. No more reloading to see it show up. Appearance sync now also covers font, blur, transparency and light/dark theme, on top of accent color, background and language from 1.9.5.",
     "date": "2026-08-18",
     "level": "info"
+  },
+  {
+    "id": "2026-08-19-v198",
+    "title": "Trading Diary 1.9.8",
+    "body": "1.9.8 finishes the sync story: trade screenshots now sync between desktop and your cloud account too, the last piece after trades, accounts, journal, and Notebook in earlier 1.9.x releases. Your account email and log out are now always visible in the sidebar instead of tucked into the top bar, with a confirmation before you actually log out. The top bar also has a manual reopen arrow now if you scroll it out of view. Send feedback is more reliable too — it wasn't always reaching us before. And a round of polish: hover states and tooltips are more consistent across the app, and the New Trade form and the news/quotes strip both make better use of extra width on large monitors.",
+    "date": "2026-08-19",
+    "level": "info"
   }
 ]
