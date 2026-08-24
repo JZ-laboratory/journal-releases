@@ -41,5 +41,20 @@
     "body": "1.9.8 finishes the sync story: trade screenshots now sync between desktop and your cloud account too, the last piece after trades, accounts, journal, and Notebook in earlier 1.9.x releases. Your account email and log out are now always visible in the sidebar instead of tucked into the top bar, with a confirmation before you actually log out. The top bar also has a manual reopen arrow now if you scroll it out of view. Send feedback is more reliable too — it wasn't always reaching us before. And a round of polish: hover states and tooltips are more consistent across the app, and the New Trade form and the news/quotes strip both make better use of extra width on large monitors.",
     "date": "2026-08-19",
     "level": "info"
+  },
+  {
+    "id": "2026-08-24-v199",
+    "title": "Trading Diary 1.9.9",
+    "body": "A small fix release: the top bar's manual reopen arrow now sits correctly across every screen layout and window width, instead of occasionally landing in the wrong spot.",
+    "date": "2026-08-24",
+    "level": "info"
+  },
+  {
+    "id": "2026-08-24-v1910",
+    "title": "Trading Diary 1.9.10 — accounts are now required",
+    "body": "Starting with 1.9.10, the desktop app requires a linked account from first launch — it's how your data stays safe and available across devices now, not an optional toggle anymore. If you don't have one yet, you'll need an invite code to register. Already have an account? Nothing changes, you just log straight in. Beyond that: Focus Strip quotes and your Goals & Discipline targets now sync across devices too. The Focus Strip itself got several layout fixes — no more empty gaps when it has little to show, and its placeholder text is properly centered. The app also quietly checks for updates in the background every couple of hours now, not just on launch.",
+    "date": "2026-08-24",
+    "level": "warning",
+    "max_version": "1.9.9"
   }
 ]
