@@ -58,6 +58,20 @@
     "max_version": "1.9.9"
   },
   {
+    "id": "2026-08-25-v1911",
+    "title": "Trading Diary 1.9.11",
+    "body": "A small maintenance release with no visible changes — internal groundwork ahead of the next few updates.",
+    "date": "2026-08-25",
+    "level": "info"
+  },
+  {
+    "id": "2026-08-25-v1912",
+    "title": "Trading Diary 1.9.12",
+    "body": "1.9.12 fixes a cloud sync gap: quotes, Notebook folders, tags and images that already existed when you first linked your account weren't always being picked up on your other devices — pull now correctly recognizes them, and anything missed will catch up automatically on the next sync. A settings value that can't be traced back to either side now shows up for you to review in Settings instead of being handled silently, same as other sync conflicts. Also added a missing translation for one conflict message that was showing raw text instead of a readable sentence.",
+    "date": "2026-08-25",
+    "level": "info"
+  },
+  {
     "id": "2026-08-26-v1913",
     "title": "Trading Diary 1.9.13",
     "body": "1.9.13 adds a dedicated Reflections page — a queue of trades still waiting for their post-trade reflection up top, and a full overview below with status filters, replacing the old popup. Trades gained a Reflection status column, and a new \"Table columns\" button lets you hide the ones you don't need (Date, Instrument and Side always stay visible) — your choice syncs across devices. You can now move a batch of selected trades to a different account in one go, and all three trash bins (Trades, Accounts, Notebook) support selecting several items at once to restore or permanently delete. Notebook pages can be bulk-edited too — move to a section, add or remove tags, change status or priority, or delete several at once. Also fixed: the Focus Strip ticker now scrolls at a genuinely constant speed no matter how wide your window is (it used to blur together on large monitors), plus a handful of smaller cloud sync reliability fixes.",
