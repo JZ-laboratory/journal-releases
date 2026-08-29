@@ -77,5 +77,12 @@
     "body": "1.9.13 adds a dedicated Reflections page — a queue of trades still waiting for their post-trade reflection up top, and a full overview below with status filters, replacing the old popup. Trades gained a Reflection status column, and a new \"Table columns\" button lets you hide the ones you don't need (Date, Instrument and Side always stay visible) — your choice syncs across devices. You can now move a batch of selected trades to a different account in one go, and all three trash bins (Trades, Accounts, Notebook) support selecting several items at once to restore or permanently delete. Notebook pages can be bulk-edited too — move to a section, add or remove tags, change status or priority, or delete several at once. Also fixed: the Focus Strip ticker now scrolls at a genuinely constant speed no matter how wide your window is (it used to blur together on large monitors), plus a handful of smaller cloud sync reliability fixes.",
     "date": "2026-08-26",
     "level": "info"
+  },
+  {
+    "id": "2026-08-29-v1915",
+    "title": "Trading Diary 1.9.15",
+    "body": "Fixes an issue where the sidebar could get stuck collapsed after scrolling. Also fixes two-factor authentication setup (regenerating your QR code no longer silently invalidates your existing authenticator entry) and makes the QR code on the Account page reliably scannable. Sign-in and cloud account screens got clearer error messages and a small visual refresh.",
+    "date": "2026-08-29",
+    "level": "info"
   }
 ]
