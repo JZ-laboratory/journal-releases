@@ -84,5 +84,12 @@
     "body": "Fixes an issue where the sidebar could get stuck collapsed after scrolling. Also fixes two-factor authentication setup (regenerating your QR code no longer silently invalidates your existing authenticator entry) and makes the QR code on the Account page reliably scannable. Sign-in and cloud account screens got clearer error messages and a small visual refresh.",
     "date": "2026-08-29",
     "level": "info"
+  },
+  {
+    "id": "2026-09-04-v200",
+    "title": "Trading Diary 2.0.0",
+    "body": "2.0.0 is the biggest update yet. A trade chart (Settings → Beta features) shows a real candlestick chart for any trade, with entry/exit arrows and SL/TP lines drawn right on it — powered by live market data, no manual setup needed. Voice input lets you dictate a brand-new trade in one go, or fill in any single form field by speaking instead of typing — it works fully offline, with an AI fallback only if the offline parser can't make sense of what you said. If you link a MetaTrader 5 account at trading-diary.co, an EA can now auto-import your trades into the cloud in the background — no manual export/import round-trip. Smaller additions: trade screenshots can now be browsed as a full gallery in the lightbox instead of one at a time, and background animations plus the top bar got a real performance and visual pass (less stutter, sharper rendering).",
+    "date": "2026-09-04",
+    "level": "info"
   }
 ]
