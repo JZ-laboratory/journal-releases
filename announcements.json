@@ -91,5 +91,12 @@
     "body": "2.0.0 is the biggest update yet. A trade chart (Settings → Beta features) shows a real candlestick chart for any trade, with entry/exit arrows and SL/TP lines drawn right on it — powered by live market data, no manual setup needed. Voice input lets you dictate a brand-new trade in one go, or fill in any single form field by speaking instead of typing — it works fully offline, with an AI fallback only if the offline parser can't make sense of what you said. If you link a MetaTrader 5 account at trading-diary.co, an EA can now auto-import your trades into the cloud in the background — no manual export/import round-trip. Smaller additions: trade screenshots can now be browsed as a full gallery in the lightbox instead of one at a time, and background animations plus the top bar got a real performance and visual pass (less stutter, sharper rendering).",
     "date": "2026-09-04",
     "level": "info"
+  },
+  {
+    "id": "2026-09-20-v210",
+    "title": "Trading Diary 2.1.0",
+    "body": "2.1.0 reworks how you keep a running log. The Journal page is now one unified feed — trades, journal entries and market notes (new: a place to record what you saw or expected even on a day you didn't trade) all show up together as cards, with images, in the order they happened. A new Habit Tracker puts your trading habits on a weekly grid on the Dashboard, with a completion trend, an optional streak row, and its own reminders. Quick Tasks let you jot a to-do with a deadline (day, or day-and-time) right from the Dashboard. Push notifications now work on your phone for reminders and news, built without any external dependency. The first-run tour was reordered to match how people actually set up the app, and Playbook models can now be picked directly from the trade form instead of only from Playbook. Also new: Topstep (TopstepX CSV) import, an in-app manual with real screenshots for every page, and a column picker for the Trades table (choose which columns show, in which order) that syncs across your devices.",
+    "date": "2026-09-20",
+    "level": "info"
   }
 ]
