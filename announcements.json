@@ -7,7 +7,6 @@
     "body": "Market notes now sync between the desktop app and the cloud, photos included.",
     "date": "2026-10-01",
     "level": "info",
-    "image": "https://raw.githubusercontent.com/JZ-laboratory/journal-releases/main/images/whats-new-2.2.0.webp",
     "sections": {
       "new": [
         "Backtests: log a practice trade exactly like a live one, just switch the mode next to the title. It never touches your live statistics.",
@@ -26,7 +25,29 @@
         "Photos in market notes keep their original quality instead of always being re-encoded and shrunk.",
         "Their thumbnails show the whole chart instead of cropping it, and the caption sits under the photo like it does for trades."
       ]
-    }
+    },
+    "cards": [
+      {
+        "title": "Backtests",
+        "body": "Log a practice trade exactly like a live one. A run is a named period with its own net R, win rate, profit factor and equity curve. Live statistics stay untouched.",
+        "image": "https://raw.githubusercontent.com/JZ-laboratory/journal-releases/main/images/whats-new-2.2.0.webp"
+      },
+      {
+        "title": "Market notes in sync",
+        "body": "Notes with their photos and captions now travel between the desktop app and the web. Deleting one moves it to the bin on the other side too.",
+        "image": "https://raw.githubusercontent.com/JZ-laboratory/journal-releases/main/images/whats-new-2.2.0-market-photo.webp"
+      },
+      {
+        "title": "Subtasks",
+        "body": "Every quick task can have its own checklist. Checking the task off checks all its subtasks.",
+        "image": "https://raw.githubusercontent.com/JZ-laboratory/journal-releases/main/images/whats-new-2.2.0-subtasks.webp"
+      },
+      {
+        "title": "Links inside notes",
+        "body": "Type // to link another page, a trade or a model. The target page shows how many notes link to it.",
+        "image": "https://raw.githubusercontent.com/JZ-laboratory/journal-releases/main/images/whats-new-2.2.0-links.webp"
+      }
+    ]
   },
   {
     "id": "2026-08-15-v193",
