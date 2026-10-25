@@ -1,5 +1,76 @@
 [
   {
+    "id": "2026-10-24-v230",
+    "kind": "release",
+    "version": "2.3.0",
+    "title": "Weekly journal, a new editor, MFE/MAE in ticks and trades step by step",
+    "body": "The biggest update so far: plan, run and review your trading week in one place, write everything in one new editor and see how much of each move you actually took.",
+    "date": "2026-10-24",
+    "level": "info",
+    "sections": {
+      "new": [
+        "Weekly journal: plan the week, follow it day by day and close it with a review. News and holidays show next to each day, and the next week opens as soon as you close one.",
+        "Log a trade step by step right from the Week: plan, entry, close. The full trade form is split into the same three parts.",
+        "One new editor everywhere - Notes, market notes, day plan, trade notes, Playbook and the Week. Multi-level lists, collapsible sections, wrapped images, Ctrl+Z / Ctrl+Y.",
+        "Exit type: tag how you left a trade (Planned target, BE, Partial + runner BE, Full SL, Trailing SL). Edit the list in Playbook; statistics and bulk edit use it too.",
+        "MFE and MAE are on by default and entered in ticks (pips for forex) - the number TradingView's Measure tool shows. R is still calculated from your stop, so statistics stay comparable across instruments.",
+        "Exit efficiency right in the trade form: furthest exit : MFE × 100, with every step of the calculation shown. The furthest exit is taken from your best exit price (or R × stop, or money) - press Calculate or type it yourself.",
+        "Edit your Confluences, Mistakes, Emotions and Exit types in a popup straight from the trade form - no need to leave the trade.",
+        "Updates written during a trade can be edited.",
+        "Pick more than one mood in a journal entry, and edit your own mood list right where you choose it.",
+        "System rules are written directly in Playbook.",
+        "TradingView import now brings commissions, stop loss and take profit from protective orders, and accepts up to five files at once.",
+        "Import orders from a chart screenshot: the AI reads lines like \"2 @ 21450\" into an editable table before anything is saved.",
+        "AI settings: choose a provider and load its model list with one click. Errors from the provider are explained in plain words.",
+        "Support chat with the developer and a Community chat with other traders (anonymous by default) - in the web app.",
+        "Account tab in Settings: profile with nickname and country flag, password, passkeys and account deletion.",
+        "A \"Notifications not arriving?\" guide inside the app."
+      ],
+      "fixed": [
+        "Week P&L is now after fees (commissions, fees and slippage), for the week total and each trade in it.",
+        "Deleting an account that had a passkey, push notifications or an MT5 token failed.",
+        "Ctrl+V pastes the image where your mouse is - even while the cursor sits in the trade note, and never into two places at once.",
+        "Pasting an image no longer opens the file picker.",
+        "Sticky columns no longer slide under the top bar.",
+        "Hidden buttons in the notifications settings stayed visible.",
+        "\"Rules and guardrails\" and \"Questions and outside influences\" in the Week no longer collapse after every click."
+      ],
+      "changed": [
+        "Reflection and the weekly review save themselves as you type.",
+        "The image viewer moves between images with the arrow keys only, and zoom is at least 2x centered on the point you clicked.",
+        "Password reset e-mail is a proper HTML mail, and its link is valid for 30 minutes. New accounts get a welcome e-mail and the tutorial follows today's app.",
+        "Habits fill the width of the panel and their checkboxes keep a fixed width."
+      ]
+    },
+    "cards": [
+      {
+        "title": "Weekly journal",
+        "body": "Plan the week, follow it day by day with news and holidays next to each day, and close it with a review. Trades can be logged right from the Week, step by step.",
+        "image": "https://raw.githubusercontent.com/JZ-laboratory/journal-releases/main/images/whats-new-2.3.0-week.webp"
+      },
+      {
+        "title": "One editor everywhere",
+        "body": "Notes, market notes, day plans, trade notes, Playbook and the Week share one editor with multi-level lists, collapsible sections, wrapped images and undo/redo.",
+        "image": "https://raw.githubusercontent.com/JZ-laboratory/journal-releases/main/images/whats-new-2.3.0-editor.webp"
+      },
+      {
+        "title": "MFE, MAE and exit efficiency",
+        "body": "Type MFE and MAE in ticks (pips for forex) straight from TradingView's Measure tool. The form shows your exit efficiency right away - furthest exit : MFE × 100 - with the whole calculation, so you can check it without leaving the trade.",
+        "image": "https://raw.githubusercontent.com/JZ-laboratory/journal-releases/main/images/whats-new-2.3.0-mfe.webp"
+      },
+      {
+        "title": "Exit type",
+        "body": "Tag how you left a trade - Planned target, BE, Partial + runner BE, Full SL or Trailing SL. Edit the list in Playbook; statistics break your results down by it.",
+        "image": "https://raw.githubusercontent.com/JZ-laboratory/journal-releases/main/images/whats-new-2.3.0-exits.webp"
+      },
+      {
+        "title": "Support and Community",
+        "body": "Write to the developer in a private chat, or talk to other traders in the Community - anonymous as Trader #N unless you choose to show your nickname.",
+        "image": "https://raw.githubusercontent.com/JZ-laboratory/journal-releases/main/images/whats-new-2.3.0-support.webp"
+      }
+    ]
+  },
+  {
     "id": "2026-10-01-v220",
     "kind": "release",
     "version": "2.2.0",
