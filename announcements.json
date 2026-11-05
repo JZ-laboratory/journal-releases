@@ -1,5 +1,69 @@
 [
   {
+    "id": "2026-11-05-v240",
+    "kind": "release",
+    "version": "2.4.0",
+    "title": "Off-edge days, a notification bell and a sharper AI mentor",
+    "body": "Log the days you traded outside your edge without spoiling your statistics, find every reminder in one place and get a deeper AI review of your execution.",
+    "date": "2026-11-05",
+    "level": "info",
+    "cards": [
+      {
+        "title": "Off-edge day",
+        "body": "Had an impulsive day? Log it as Off edge. The money still counts in your balance, but the trades stay out of your strategy statistics. You can add the missed profit, your mood and a note - the lesson cost is calculated for you.",
+        "image": "https://raw.githubusercontent.com/JZ-laboratory/journal-releases/main/images/whats-new-2.4.0-offedge.webp"
+      },
+      {
+        "title": "Notification bell",
+        "body": "Every reminder is now kept under the bell in the top bar for 30 days, even when it never reached your phone. Mark them read, delete them, and tap a grouped reminder to see exactly which trades it is about.",
+        "image": "https://raw.githubusercontent.com/JZ-laboratory/journal-releases/main/images/whats-new-2.4.0-bell.webp"
+      },
+      {
+        "title": "Incomplete trade reminders",
+        "body": "Pick in Settings what a trade must have - result, exit type, MFE/MAE, emotion, confluences, model, entry quality or screenshot. Tapping a reminder opens the trade right at the missing field. Don't want to fill something in? Press Don't remind.",
+        "image": "https://raw.githubusercontent.com/JZ-laboratory/journal-releases/main/images/whats-new-2.4.0-reminders.webp"
+      },
+      {
+        "title": "A sharper AI mentor",
+        "body": "The AI now audits your execution: time in position, trade order and gaps after a loss, MAE/MFE and exit efficiency - and compares your clean edge with off-edge days. Add your own instructions in Settings to set its tone, length and focus.",
+        "image": "https://raw.githubusercontent.com/JZ-laboratory/journal-releases/main/images/whats-new-2.4.0-ai.webp"
+      }
+    ],
+    "sections": {
+      "new": [
+        "Off-edge day (Impulsive day): money counts, statistics don't. Missed profit, mood, tags and a note; the AI sees the lesson cost.",
+        "Notification history under the bell in the top bar - kept for 30 days, mark as read or delete.",
+        "Grouped reminders expand into their trades and what each one is missing; tap a trade to open it at that field.",
+        "Don't remind: drop a trade from reminders with one tap. Undo in Settings → Notifications.",
+        "Incomplete trade reminder: choose what to check. Up to three trades come one by one, more as one summary.",
+        "Remind me in an hour, right on the notification (Android, Chrome and Edge).",
+        "News reminders count down to the release and ping you again the moment it's out. The countdown can be turned off.",
+        "Custom instructions for AI in Settings: tone, length and what to focus on.",
+        "Pick several accounts at once with checkboxes - the choice is remembered.",
+        "Support can now write to you first, and you can send images in Support when the developer allows it.",
+        "A new message from Support shows in the focus strip and as a number on Settings and the account icon.",
+        "Community rules: read and agree before you enter."
+      ],
+      "fixed": [
+        "Deleted trades were still reminded.",
+        "Deleting a notification closed the whole notification panel.",
+        "Accented letters in AI answers sometimes broke into \"��\".",
+        "Typing a total result in money on a trade with several exits was not saved - now the difference is split across the exits.",
+        "Date and time in narrow fields shrink instead of being cut off.",
+        "Tapping a notification opened nothing when the app was not already open in that tab.",
+        "The notifications card in Settings was empty after a reload."
+      ],
+      "changed": [
+        "AI prompts are general - the AI follows only your own strategy from Playbook, with no built-in trading method.",
+        "AI analysis fills the height of your screen, and the message box never hides under the menu on a phone.",
+        "Reminders show the trade number and entry time, so two trades from the same day are easy to tell apart.",
+        "The What's new window opens in the middle of the screen.",
+        "The bottom bar hides while you type on a phone.",
+        "A smoother top bar; hold the bell or the theme switch to see what it does."
+      ]
+    }
+  },
+  {
     "id": "2026-10-24-v230",
     "kind": "release",
     "version": "2.3.0",
