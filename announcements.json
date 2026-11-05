@@ -188,6 +188,7 @@
     "id": "2026-09-20-v210",
     "kind": "release",
     "version": "2.1.0",
+    "title": "Market log and the Journal feed",
     "body": "2.1.0 adds a market log to the Journal: a record of the market itself, not just of your trades. An entry is a timestamped observation — instrument, a chart, what you expect, and, filled in later, what actually happened. That gap is the point: you write the expectation now and the outcome when it plays out, even days later. Days without a trade stop being holes in your history — you pick why you didn’t trade, or what the market was doing (range, trending, volatile, thin).\n\nAbove it sits a feed: one timeline of market notes, trades, journal entries and economic news, with your own choice of what appears and how far back. Images swipe sideways, everything is searchable, and on a wide screen the feed becomes a column on the right with its own scrollbar. News now reach back as far as the range promises, because the app keeps its own archive instead of asking the provider for the current week only. The same feed is available as a Dashboard tile.\n\nThe two journal fields are now called “What I’m bringing into the day” and “How the day went” — they were never only about the market, and the old names said otherwise. Editing a journal entry or a market note always happens in one window, opened from anywhere, and it finally lets you fix the date of an entry that landed on the wrong day. Deleting is split, so removing the morning half leaves the evening one alone, and anything you delete waits 30 days in a bin you can restore from.",
     "date": "2026-09-20",
     "level": "info"
@@ -196,6 +197,7 @@
     "id": "2026-09-04-v200",
     "kind": "release",
     "version": "2.0.0",
+    "title": "Trade chart, voice input and MT5 auto-import",
     "body": "2.0.0 is the biggest update yet. A trade chart (Settings → Beta features) shows a real candlestick chart for any trade, with entry/exit arrows and SL/TP lines drawn right on it — powered by live market data, no manual setup needed. Voice input lets you dictate a brand-new trade in one go, or fill in any single form field by speaking instead of typing — it works fully offline, with an AI fallback only if the offline parser can't make sense of what you said. If you link a MetaTrader 5 account at trading-diary.co, an EA can now auto-import your trades into the cloud in the background — no manual export/import round-trip. Smaller additions: trade screenshots can now be browsed as a full gallery in the lightbox instead of one at a time, and background animations plus the top bar got a real performance and visual pass (less stutter, sharper rendering).",
     "date": "2026-09-04",
     "level": "info"
@@ -204,6 +206,7 @@
     "id": "2026-08-29-v1915",
     "kind": "release",
     "version": "1.9.15",
+    "title": "Sidebar and two-factor fixes",
     "body": "Fixes an issue where the sidebar could get stuck collapsed after scrolling. Also fixes two-factor authentication setup (regenerating your QR code no longer silently invalidates your existing authenticator entry) and makes the QR code on the Account page reliably scannable. Sign-in and cloud account screens got clearer error messages and a small visual refresh.",
     "date": "2026-08-29",
     "level": "info"
@@ -212,6 +215,7 @@
     "id": "2026-08-26-v1913",
     "kind": "release",
     "version": "1.9.13",
+    "title": "Reflections page and bulk actions",
     "body": "1.9.13 adds a dedicated Reflections page — a queue of trades still waiting for their post-trade reflection up top, and a full overview below with status filters, replacing the old popup. Trades gained a Reflection status column, and a new \"Table columns\" button lets you hide the ones you don't need (Date, Instrument and Side always stay visible) — your choice syncs across devices. You can now move a batch of selected trades to a different account in one go, and all three trash bins (Trades, Accounts, Notebook) support selecting several items at once to restore or permanently delete. Notebook pages can be bulk-edited too — move to a section, add or remove tags, change status or priority, or delete several at once. Also fixed: the Focus Strip ticker now scrolls at a genuinely constant speed no matter how wide your window is (it used to blur together on large monitors), plus a handful of smaller cloud sync reliability fixes.",
     "date": "2026-08-26",
     "level": "info"
@@ -220,6 +224,7 @@
     "id": "2026-08-25-v1912",
     "kind": "release",
     "version": "1.9.12",
+    "title": "Cloud sync catch-up fix",
     "body": "1.9.12 fixes a cloud sync gap: quotes, Notebook folders, tags and images that already existed when you first linked your account weren't always being picked up on your other devices — pull now correctly recognizes them, and anything missed will catch up automatically on the next sync. A settings value that can't be traced back to either side now shows up for you to review in Settings instead of being handled silently, same as other sync conflicts. Also added a missing translation for one conflict message that was showing raw text instead of a readable sentence.",
     "date": "2026-08-25",
     "level": "info"
@@ -228,6 +233,7 @@
     "id": "2026-08-25-v1911",
     "kind": "release",
     "version": "1.9.11",
+    "title": "Maintenance release",
     "body": "A small maintenance release with no visible changes — internal groundwork ahead of the next few updates.",
     "date": "2026-08-25",
     "level": "info"
@@ -246,6 +252,7 @@
     "id": "2026-08-24-v199",
     "kind": "release",
     "version": "1.9.9",
+    "title": "Top bar arrow fix",
     "body": "A small fix release: the top bar's manual reopen arrow now sits correctly across every screen layout and window width, instead of occasionally landing in the wrong spot.",
     "date": "2026-08-24",
     "level": "info"
@@ -254,6 +261,7 @@
     "id": "2026-08-19-v198",
     "kind": "release",
     "version": "1.9.8",
+    "title": "Screenshot sync and a clearer sidebar",
     "body": "1.9.8 finishes the sync story: trade screenshots now sync between desktop and your cloud account too, the last piece after trades, accounts, journal, and Notebook in earlier 1.9.x releases. Your account email and log out are now always visible in the sidebar instead of tucked into the top bar, with a confirmation before you actually log out. The top bar also has a manual reopen arrow now if you scroll it out of view. Send feedback is more reliable too — it wasn't always reaching us before. And a round of polish: hover states and tooltips are more consistent across the app, and the New Trade form and the news/quotes strip both make better use of extra width on large monitors.",
     "date": "2026-08-19",
     "level": "info"
@@ -262,6 +270,7 @@
     "id": "2026-08-18-v197",
     "kind": "release",
     "version": "1.9.7",
+    "title": "Instant sync",
     "body": "1.9.7 makes sync feel instant. When the app pulls in something new from the cloud — a trade someone added elsewhere, a setting you changed on another device — it quietly refreshes itself in the background. No more reloading to see it show up. Appearance sync now also covers font, blur, transparency and light/dark theme, on top of accent color, background and language from 1.9.5.",
     "date": "2026-08-18",
     "level": "info"
@@ -270,6 +279,7 @@
     "id": "2026-08-17-v196",
     "kind": "release",
     "version": "1.9.6",
+    "title": "Safer sync rules",
     "body": "1.9.6 makes the sync rules clearer and safer. Your cloud account is now the reference copy: when you're online, the desktop app catches up to it automatically, and the only thing that ever holds a record back is an edit you made here that hasn't reached the cloud yet — a genuine conflict (the same record changed in two places) still always shows up for you to resolve, never silently overwritten either way. Also fixed: deleting something for good now waits until that deletion has actually reached the cloud first, so an old cloud copy can never quietly bring it back.",
     "date": "2026-08-17",
     "level": "info"
@@ -278,6 +288,7 @@
     "id": "2026-08-17-v195",
     "kind": "release",
     "version": "1.9.5",
+    "title": "Two-way cloud sync",
     "body": "1.9.5 brings two-way cloud sync: trades, accounts, models, journal entries, Notebook notes and reflections now sync automatically between the desktop app and your linked account at trading-diary.co, in both directions — link your account once in Settings → Cloud Sync and it runs on its own from then on (a \"Sync now\" button is there too if you want it instant). Your look and feel — accent color, background animation, language — follows you between devices too. Anything that can't sync safely, like two conflicting edits, shows up as a clear entry in the Cloud Sync panel instead of silently picking a winner.",
     "date": "2026-08-17",
     "level": "info"
@@ -296,6 +307,7 @@
     "id": "2026-08-15-v193",
     "kind": "release",
     "version": "1.9.3",
+    "title": "Auto-updates",
     "body": "Since 1.9.1 the app updates itself — look for the update banner in the sidebar, installing takes a couple of clicks. The 1.9.x series added auto-updates, more reliable background shutdown, and English as the default language for fresh installs.",
     "date": "2026-08-15",
     "level": "info"
